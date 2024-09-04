@@ -1,0 +1,29 @@
+import React,{useState} from 'react'
+
+
+const App = () => {
+    const [count, setCount] = useState(0)
+    const [user, setUser] = useState('')
+
+    const increment = () =>{
+        setCount(count + 1)
+    }
+
+    const handleOnChange = (e) =>{
+        setUser(e.target.value)
+    }
+
+
+
+    return(
+        <div>
+     <div>hi {count}</div>
+     <button id="" onClick={increment}>Click me </button>
+     <input name="user" onChange={handleOnChange} value={user}></input>
+        </div>
+   
+    )
+}
+
+
+export default App

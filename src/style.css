@@ -1,0 +1,45 @@
+.mycss{
+    background: rgba(0, 0, 0, 0.555);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+
+}
+
+.mycss2{
+ 
+
+    background: rgba( 0, 0, 0, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.font{
+    font-family: "Quicksand", sans-serif;
+   
+
+}
+
+.makeBg{
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    z-index: 20;
+}
+
+
+.mybtmS{
+    border-radius: 16px;
+    background: #fefae0;
+    box-shadow:  5px 5px 5px #eae6ce,
+                 -5px -5px 5px #fffff2;
+}
